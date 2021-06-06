@@ -9,6 +9,7 @@ console.log(body);
 
 
 color1.addEventListener("input", function(){
+    
     body.style.background = 
     "linear-gradient(to right," 
     + color1.value 
