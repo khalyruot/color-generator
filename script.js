@@ -16,6 +16,7 @@ color1.addEventListener("input", function(){
     + ", " 
     + color2.value 
     + ")";
+    css.textContent = body.style.background + ";"; 
 })
 
 color2.addEventListener("input", function(){
@@ -25,4 +26,6 @@ color2.addEventListener("input", function(){
     + ", " 
     + color2.value 
     + ")";
+    css.textContent = body.style.background + ";"; 
 })
+
